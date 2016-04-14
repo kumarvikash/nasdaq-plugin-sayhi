@@ -1,2 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="nasdaq-plugin-sayhi" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>nasdaq-plugin-sayhi</name><js-module name="nasdaq-plugin-sayhi" src="www/nasdaq-plugin-sayhi.js"><clobbers target="cordova.plugins.nasdaq-plugin-sayhi" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="nasdaq-plugin-sayhi"><param name="android-package" value="nasdaq-plugin-sayhi.nasdaq-plugin-sayhi" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml" /><source-file src="src/android/nasdaq-plugin-sayhi.java" target-dir="src/nasdaq-plugin-sayhi/nasdaq-plugin-sayhi" /></platform><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="nasdaq-plugin-sayhi"><param name="ios-package" value="nasdaq-plugin-sayhi" /></feature></config-file><source-file src="src/ios/nasdaq-plugin-sayhi.m" /></platform></plugin>
+<plugin id="nasdaq-plugin-sayhi" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<name>nasdaq-plugin-sayhi</name>
+	<js-module name="nasdaq-plugin-sayhi" src="www/nasdaq-plugin-sayhi.js">
+		<clobbers target="cordova.plugins.nasdaq-plugin-sayhi" />
+	</js-module>
+	
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="nasdaq-plugin-sayhi">
+				<param name="android-package" value="nasdaq-plugin-sayhi.nasdaq-plugin-sayhi" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml" />
+			<source-file src="src/android/sayhi.java" target-dir="src/nasdaq-plugin-sayhi/nasdaq-plugin-sayhi" />
+	</platform>
+	
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="nasdaq-plugin-sayhi">
+				<param name="ios-package" value="nasdaq-plugin-sayhi" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/sayhi.m" />
+	</platform>
+</plugin>

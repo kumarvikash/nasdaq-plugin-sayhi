@@ -2,14 +2,14 @@
 
 #import <Cordova/CDV.h>
 
-@interface nasdaq-plugin-sayhi : CDVPlugin {
+@interface sayhi : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation nasdaq-plugin-sayhi
+@implementation sayhi
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command
 {

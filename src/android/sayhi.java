@@ -1,4 +1,4 @@
-package nasdaq-plugin-sayhi;
+package nasdaq.plugin.sayhi;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;

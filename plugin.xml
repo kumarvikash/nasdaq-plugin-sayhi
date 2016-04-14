@@ -13,7 +13,7 @@
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml" />
-			<source-file src="src/android/Sayhi.java" target-dir="src/nasdaq-plugin-sayhi/nasdaq-plugin-sayhi" />
+			<source-file src="src/android/sayhi.java" target-dir="src/nasdaq-plugin-sayhi/nasdaq-plugin-sayhi" />
 	</platform>
 	
 	<platform name="ios">

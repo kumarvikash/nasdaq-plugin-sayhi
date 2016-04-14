@@ -1,20 +1,25 @@
 {
   "name": "nasdaq-plugin-sayhi",
   "version": "0.0.0",
-  "description": "testing",
+  "description": "testing say hi",
   "cordova": {
     "id": "nasdaq-plugin-sayhi",
-    "platforms": []
+    "platforms": [
+      "android",
+      "ios"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kumarvikash/nasdaq-plugin-sayhi.git"
   },
   "keywords": [
-    "ecosystem:cordova"
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
   ],
   "author": "vikash",
-  "license": "apace license",
+  "license": "apache license",
   "bugs": {
     "url": "https://github.com/kumarvikash/nasdaq-plugin-sayhi/issues"
   },

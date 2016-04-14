@@ -1,0 +1,22 @@
+{
+  "name": "nasdaq-plugin-sayhi",
+  "version": "0.0.0",
+  "description": "testing",
+  "cordova": {
+    "id": "nasdaq-plugin-sayhi",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarvikash/nasdaq-plugin-sayhi.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "vikash",
+  "license": "apace license",
+  "bugs": {
+    "url": "https://github.com/kumarvikash/nasdaq-plugin-sayhi/issues"
+  },
+  "homepage": "https://github.com/kumarvikash/nasdaq-plugin-sayhi#readme"
+}

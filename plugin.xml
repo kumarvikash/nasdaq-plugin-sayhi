@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="nasdaq-plugin-sayhi" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>nasdaq-plugin-sayhi</name>
+    <js-module name="nasdaq-plugin-sayhi" src="www/nasdaq-plugin-sayhi.js">
+        <clobbers target="cordova.plugins.nasdaq-plugin-sayhi" />
+    </js-module>
+</plugin>
